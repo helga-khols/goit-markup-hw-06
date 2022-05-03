@@ -250,7 +250,7 @@
         </div>
         <div class="social-media">
           <h2 class="visually-hidden">социальные сети</h2>
-          <p class="join-social">присоединяйтесь</p>
+          <p class="join-title">присоединяйтесь</p>
           <ul class="join-social-list list">
             <li class="social-icon">
               <a href="" class="social-link link">
@@ -281,6 +281,25 @@
             </li>
           </ul>
         </div>
+
+        <form class="subscription">
+          <label for="sub-email" class="join-title">Подпишитесь на рассылку</label>>
+          <div class="sub-wrap">
+            <input
+              type="email"
+              name="sub-email"
+              class="sub-email"
+              id="sub-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="button sub-btn">
+              Подписаться
+              <svg class="sub-icon" width="24" height="24">
+                <use href="./images/icon/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>

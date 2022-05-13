@@ -439,6 +439,7 @@ img {
 .contacts-bottom {
   width: calc(25%-15px);
   margin-right: 70px;
+  flex-grow: 1;
 }
 
 .location {
@@ -718,11 +719,15 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  display: block;
 }
-.form-field:not(:last-child) {
+.form-field {
   margin-bottom: 10px;
 }
 
+.textarea {
+  margin-bottom: 0;
+}
 .input-wrap {
   position: relative;
 }
@@ -753,6 +758,7 @@ img {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .modal-check-text::before {
@@ -782,7 +788,6 @@ img {
 }
 
 .subscription {
-  margin-top: 20px;
   margin-left: 93px;
 }
 .sub-wrap {
